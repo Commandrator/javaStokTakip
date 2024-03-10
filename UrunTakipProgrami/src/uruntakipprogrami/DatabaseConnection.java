@@ -14,8 +14,8 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private static Connection connection;
     private static final String url = "jdbc:mysql://localhost:3306/db_stok_takip";
-    private static final String user = "root";
-    private static final String password = "Ts61526152";
+    private static final String user = "DB_USER";
+    private static final String password = "DB_PASSWORD";
     public static Connection getConnection() {
         if (connection == null) {
             try {
